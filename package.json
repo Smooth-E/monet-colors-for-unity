@@ -1,0 +1,10 @@
+{
+  "version": "0.0.1",
+  "name": "com.smoothie.monetcolors",
+  "author": {
+    "name": "Smooth E",
+    "url": "https://github.com/Smooth-E"
+  },
+  "displayName": "Monet Colors For Unity",
+  "description": "Use colors of Material You (Monet) engine introduced in Android 12 for your Unity UI."
+}
