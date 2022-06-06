@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./.media/01.png" width=100px height=100px >
+    <img src=".media/01.png" width=100px height=100px >
 </div>
 
 <h1 align=center> Material You Colors for Unity </h1>
@@ -8,16 +8,7 @@ With help of this Unity package you will be able to use Material You colors in y
 
 ## Usage
 
-<table>
-    <tr>
-        <td>
-            Import the package to your project. To do so, open a package manager tab, click the *plus* button on the left upper corner of it and select *Add package from git URL*. Then enter a git URL of this repository. You can then add components like `ImageMonetColorer` to your objects and select needed color with sliders on those components.
-        </td>
-        <td width=30%>
-            <img src="./.media/02.png">
-        </td>
-    </tr>
-</table>
+Import the package to your project. To do so, open a package manager tab, click the *plus* button on the left upper corner of it and select *Add package from git URL*. Then enter a git URL of this repository. You can then add components like `ImageMonetColorer` to your objects and select needed color with sliders on those components.
 
 ## Tweaking for your needs
 
@@ -32,6 +23,23 @@ Right now there are components implemented in this package for coloring the foll
 However, you can easily create *colorers* for any component you need. First of all, inherit you component from a `MonetColorer` base class, then overide the `UpdateColor()` method as you want. Calling `base.UpdateColor()` will set the `_colorValue` and `_color` fields to a new values, when they are changed. 
 
 **Fallback palette.** If you want a custom fallback palette, customize [this file](./Runtime/FallbackColors.cs). Currently, there is no tool to create such file, but there are plans to make one. For now you can use my [Previewer app](https://github.com/Smooth-E/monet-color-previewer) and edit its output by hand.
+
+## Editor overview
+
+<table align=center width=100%>
+    <tr>
+        <td> <img src=".media/03.png" width=100%> </td>
+        <td> <img src=".media/04.png" width=100%> </td>
+    </tr>
+    <tr>
+        <td> <img src=".media/05.png" width=100%> </td>
+        <td> <img src=".media/06.png" width=100%> </td>
+    </tr>
+    <tr>
+        <td> <img src=".media/07.png" width=100%> </td>
+        <td> <img src=".media/08.png" width=100%> </td>
+    </tr>
+</table>
 
 ## Licensing
 
