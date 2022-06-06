@@ -7,7 +7,7 @@
   },
   "displayName": "Monet Colors For Unity",
   "description": "Use colors of Material You (Monet) engine introduced in Android 12 for your Unity UI.",
-  "type": "module",
   "documentationUrl": "https://github.com/Smooth-E/monet-colors-for-unity",
-  "changelogUrl": "https://github.com/Smooth-E/monet-colors-for-unity"
+  "changelogUrl": "https://github.com/Smooth-E/monet-colors-for-unity",
+  "hideInEditor": false
 }
